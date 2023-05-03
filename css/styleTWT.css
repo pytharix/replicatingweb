@@ -1,0 +1,191 @@
+@font-face {
+    font-family: inter;
+    src: url("../font/Inter-Regular.ttf");
+}
+
+@font-face {
+    font-family: snotes;
+    src: url("../font/Sticky Notes.ttf");
+}
+
+@font-face {
+    font-family: roobert;
+    src: url("../font/Roobert-Regular.ttf");
+}
+
+body {
+    background-color: black;
+    background-attachment: fixed;
+    background-size: 2000px;
+    font-family: roobert;
+}
+
+html {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.mainActivity {
+    position: absolute;
+    top: 0px;
+    left: 23%;
+    right: 23%;
+    border: 1px solid grey;
+    border-top: 0px;
+    height: 2380px;
+}
+
+.myName {
+    line-height: 0px;
+    height: 10%;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background-color: black;
+}
+
+.myName #name {
+    margin-left: 80px;
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.myName #tweet {
+    margin-left: 80px;
+    color: grey;
+    font-size: 14px;
+}
+
+.aboutMe {
+    margin-top: 7%;
+    height: 30%;
+    width: 100%;
+}
+
+.backImg {
+    position: absolute;
+    margin-top: 0px;
+    width: 100%;
+    top: 3%;
+}
+
+.backImg img {
+    width: 100%;
+}
+
+.profileImg {
+    position: absolute;
+    margin-top: 35%;
+    margin-left: 4%;
+}
+
+.profileImg img {
+    width: 21%;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+.backTwitch {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    position: absolute;
+    margin-top: 45%;
+    right: 30%;
+    width: 10%;
+}
+
+.backTwitch p {
+    margin-top: 0px;
+    margin-left: 16%;
+}
+
+.backTwitch img {
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+.backTwitch :hover {
+    opacity: 0.7;
+}
+
+.backTwitch a {
+    text-decoration: none;
+    color: white;
+}
+
+.backTwitch a:hover {
+    text-decoration: underline;
+}
+
+.aboutMeCtxt {
+    position: absolute;
+    margin-top:55%;
+    margin-bottom: 20px;
+}
+
+.aboutMeCtxt ul {
+    list-style-type: none;
+
+}
+
+.tweet {
+    height: auto;
+    width: 100%;
+    border-top: 1px solid grey;
+    margin-top: 0px;
+    padding-bottom: 3%;
+}
+
+.tweet .picture {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    width: 60%;
+    border-radius: 8%;
+    border: 2px solid white;
+}
+
+.tweetProfile {
+    color: white;
+}
+
+.tweetProfile p {
+    margin-left: 2%;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.tweetProfile p img {
+    margin-right: 1%;
+    width: 10%;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.tweetProfile p strong:hover {
+    text-decoration: underline;
+}
+
+.tweet:hover {
+    background-color: #0C0C0C;
+}
+
+.footer {
+    position: absolute;
+    bottom: 1%;
+    color: white;
+    text-align: center;
+    left: 20%;
+    right: 20%;
+    font-size: 10px;
+    font-family: roobert;
+}

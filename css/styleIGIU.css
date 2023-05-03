@@ -1,0 +1,176 @@
+@font-face {
+    font-family: inter;
+    src: url("../font/Inter-Regular.ttf");
+}
+
+@font-face {
+    font-family: snotes;
+    src: url("../font/Sticky Notes.ttf");
+}
+
+@font-face {
+    font-family: roobert;
+    src: url("../font/Roobert-Regular.ttf");
+}
+
+body {
+    background-color: #FAFAFA;
+    background-attachment: fixed;
+    font-family: roobert;
+}
+
+html {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.dashboard {
+    z-index: 999;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    border-bottom: 2px solid #DCDCDC;
+}
+
+.searchBox {
+    position: fixed;
+    top: 2.5%;
+    left: 40%;
+    height: 5%;
+    width: 20%;
+}
+
+.searchBox input[type=text] {
+    width: 100%;
+    height: 100%;
+    padding-left: 8px;
+    border: 0px;
+    font-size: 15px;
+    vertical-align: bottom;
+    border-radius: 3px;
+    background: #EFEFEF;
+}
+
+.dashboard .iconContainer {
+    position: fixed;
+    top: 1%;
+    right: 15%;
+    width: 20%;
+
+}
+
+.iconContainer img {
+    width: 11%;
+    padding: 5%;
+}
+
+.content {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    width: 60%;
+    height: 1000px;
+}
+
+.myProfile {
+    height: 30%;
+    width: 100%;
+    border-bottom: 2px solid #DCDCDC;
+}
+
+.profilePict {
+    height: 100%;
+    width: 40%;
+    float: left;
+}
+
+.profilePict #profile {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+    border-radius: 50%;
+}
+
+.profileText {
+    width: 59%;
+    height: 100%;
+    float: left;
+}
+
+.profileText table {
+    width: 80%;
+    margin-top: 3%;
+}
+
+.profileText table,td {
+    border-collapse: collapse;
+}
+
+.profileText td {
+    padding: 2%;
+}
+
+.profileText td a{
+    text-decoration: none;
+}
+
+.miniNav {
+    width: 100%;
+    height: 5%;
+}
+
+.miniNav table {
+    width: 30%;
+    height:100%;
+    padding: 0px;
+    text-align: center;
+    margin-left: 35%;
+    font-size: 120%;
+
+}
+
+.imageContainer {
+    width: 100%;
+    height: 64%;
+    margin-top: 2%;
+}
+
+.imageContainer div{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    float: left;
+}
+
+.imgRows1 {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.imgRows2 {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+
+.imageContainer img {
+    width: 100%;
+    margin-bottom: 15%;
+}
+
+.footer {
+    position: absolute;
+    color: black;
+    top: 190%;
+    height: 10%;
+    font-size: 60%;
+    text-align: center;
+    width: 100%;
+}

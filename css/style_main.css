@@ -1,0 +1,376 @@
+@font-face {
+    font-family: inter;
+    src: url("../font/Inter-Regular.ttf");
+}
+
+@font-face {
+    font-family: snotes;
+    src: url("../font/Sticky Notes.ttf");
+}
+
+@font-face {
+    font-family: roobert;
+    src: url("../font/Roobert-Regular.ttf");
+}
+
+body {
+    background-image: url('../image/lily_back.jpg');
+    background-attachment: fixed;
+    background-size: 2000px;
+}
+
+html {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.background {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-attachment: fixed;
+}
+
+.navBar {
+    z-index: 999;
+    position: fixed;
+    top: 8px;
+    left: 8px;
+    right: 8px;
+    height: 60px;
+    background-color: #18181a;
+    border-radius: 8px;
+    background-attachment: fixed;
+}
+
+.logoM {
+    position: fixed;
+    top: 13px;
+    left: 13px;
+    width: 50px;
+    height: 50px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+
+.logoM img {
+    display: block;
+    width:48px;
+    height: 48px;
+    padding-left: 1px;
+    padding-top: 1px;
+    border-radius: 8px;
+}
+
+.searchBox {
+    position: fixed;
+    top: 23px;
+    left: 40%;
+}
+
+.searchBox input[type=text] {
+    width: 300px;
+    height: 30px;
+    padding-left: 8px;
+    border: 0px;
+    font-size: 15px;
+    vertical-align: bottom;
+    border-radius: 8px;
+    background: #fab3ff;
+}
+
+.myInformation {
+    position: absolute;
+    top: 75%;
+    left: 30px;
+    right: 30px;
+    height: 1200px;
+    background-color: #18181a;
+}
+
+.lilyPichuInf {
+    position: sticky;
+    top: 70px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 120px;
+    background-color: #18181a;
+    color: white;
+}
+
+.lilyPhoto img {
+    height: 100px;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-bottom: 2.5px;
+    border: 3.5px solid #18181a;
+    border-radius: 50%;
+}
+
+.lilyPichuImgBorder {
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+    background-color: #FCD1FF;
+    border-radius: 50%;
+}
+
+.videoMain {
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    height: 60%;
+    border: 5px solid #000000;
+}
+
+.lilyName {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 140px;
+}
+
+.lilyName p {
+    font-family: inter;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.lilyPopularity {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 142px;
+}
+
+.lilyPopularity p {
+    font-family: inter;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.homeBtnOff {
+    position: absolute;
+    margin-left: 21%;
+    margin-top: 84px;
+    font-family: snotes;
+    font-size:30px;
+}
+
+.aboutBtnOn {
+    position: absolute;
+    margin-left: 31%;
+    margin-top: 84px;
+    font-family: snotes;
+    font-size:30px;
+    border-bottom: 3px solid #FCD1FF;
+    padding-bottom: 2px;
+    color: #FCD1FF;
+}
+
+.scheduleBtnOff {
+    position: absolute;
+    margin-left: 41%;
+    margin-top: 84px;
+    font-family: snotes;
+    font-size:30px;
+}
+
+.videoBtnOff {
+    position: absolute;
+    margin-left: 51%;
+    margin-top: 84px;
+    font-family: snotes;
+    font-size:30px;
+}
+
+.lilyGif {
+    position: absolute;
+    top: 3px;
+    right: 60px;
+    border: 2px solid #FCD1FF;
+    height: 110px;
+}
+
+.lilyGif img {
+    height: 100%;
+}
+
+.lilyGif2 {
+    position: absolute;
+    top: 3px;
+    right: 300px;
+    border: 2px solid #FCD1FF;
+    height: 110px;
+}
+
+.lilyGif2 img {
+    height: 100%;
+}
+
+.lilyFaq {
+    position: absolute;
+    top: 230px;
+    left: 8%;
+    width: 40%;
+    height: auto;
+    border: 3px solid white;
+}
+
+.lilyFaq a {
+    text-decoration: none;
+}
+
+.lilyFaq a:link {
+  color: white;
+}
+
+.lilyFaq a:visited {
+  color: #FCD1FF;
+}
+
+.lilyFaq a:hover {
+    text-decoration: underline;
+}
+
+.lilyFaq img {
+    width: 100%;
+}
+
+.lilyFaq :hover img {
+    opacity: 0.5;
+}
+
+.lilyFaq ul {
+    font-family: roobert;
+    margin-top: 45px;
+    color: white;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    list-style-type: none;
+    font-size: 14px
+}
+
+.lilyFaq li {
+    margin: 10px;
+    margin-right: 20px;
+    margin-left: 0px;
+    font-align: justify;
+}
+
+.lilyYoutube {
+    position: absolute;
+    top: 400px;
+    right: 8%;
+    width: 40%;
+    height: auto;
+    border: 3px solid white;
+}
+
+.lilyYoutube img {
+    width: 100%;
+}
+
+.lilyYoutube :hover img {
+    opacity: 0.5;
+}
+
+.lilyYoutube ul {
+    font-family: roobert;
+    margin-top: 45px;
+    color: white;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    list-style-type: none;
+    font-size: 14px
+}
+
+.lilyYoutube li {
+    margin: 10px;
+    margin-right: 20px;
+    margin-left: 0px;
+    font-align: justify;
+}
+
+.lilyYoutube a {
+    text-decoration: none;
+}
+
+.lilyYoutube a:link {
+    color: white;
+}
+
+.lilyYoutube a:visited {
+    color: #FCD1FF;
+}
+
+.lilyYoutube a:hover {
+    text-decoration: underline;
+}
+
+.dogooImage {
+    position: absolute;
+    top: 800px;
+    right: 8%;
+    width: 40%;
+    height: auto;
+    border: 3px solid white;
+}
+
+.dogooImage img {
+    width: 100%;
+}
+
+.dogooImage :hover img {
+    opacity: 0.5;
+}
+
+.dogooImage ul {
+    font-family: roobert;
+    margin-top: 45px;
+    color: white;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    list-style-type: none;
+    font-size: 14px
+}
+
+.dogooImage li {
+    margin: 10px;
+    margin-right: 20px;
+    margin-left: 0px;
+    font-align: justify;
+}
+
+.dogooImage a {
+    text-decoration: none;
+}
+
+.dogooImage a:link {
+    color: white;
+}
+
+.dogooImage a:visited {
+    color: #FCD1FF;
+}
+
+.dogooImage a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    position: absolute;
+    bottom: 2%;
+    color: white;
+    text-align: center;
+    left: 20%;
+    right: 20%;
+    font-size: 10px;
+    font-family: roobert;
+}
